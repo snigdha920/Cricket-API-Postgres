@@ -1,0 +1,12 @@
+DATABASE DESIGN
+
+Teams (id,  team_name, captain_name, coach_name, matches_played )
+
+Constraints on teams :-
+id : primary key
+
+match(id, date, team_1, team_2, runs_by_1, runs_by_2, wickets_lost_1, wickets_lost_2, fours_by_1, fours_by_2, sixes_by_1, sixes_by_2, motm, overs, winner)
+
+Constraints on match :-
+
+team_1, team_2 are foreign keys referring to Teams.id
