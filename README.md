@@ -15,9 +15,11 @@ Built using Flask & Postgres
 # Usage 
 
 1. http://127.0.0.1:5000/get_all_matches
+
 This endpoint will return list of matches with details mentioned above
 
 2. http://127.0.0.1:5000/addteam?id={team_id}&team_name={team_name}&coach_name={coach_name}&captain_name={captain_name}&matches_played={matches_played}
+
 This endpoint is used to add a team having details
 - Team ID (primary key)
 - Team name
@@ -25,6 +27,7 @@ This endpoint is used to add a team having details
 - Coach name
 
 3. http://127.0.0.1:5000/get_team?team_id={team_id}
+
 This endpoint is used to get a team having details 
 - Team ID (primary key)
 - Team name
@@ -33,6 +36,7 @@ This endpoint is used to get a team having details
 - Matches played till date
 
 4. http://127.0.0.1:5000/addmatch?id={match_id}?team_1={team_1_id}&team_2={team_2_id}&runs_by_1={runs_by_1}&runs_by_2={runs_by_2}&fours_by_1={fours_by_1}&fours_by_2={fours_by_2}&wickets_lost_1={wickets_lost_1}&wickets_lost_2={wickets_lost_2}&sixes_by_1={sixes_by_1}&sixes_by_2={sixes_by_2}&overs={overs}&motm={motm}&date={date}
+
 This endpoint is used to add a match having details 
 - Teams who participated 
 - Winner
@@ -44,6 +48,7 @@ This endpoint is used to add a match having details
 - Overs played in the match
 
 5. http://127.0.0.1:5000/get_match?match_id={match_id}
+
 This endpoint is used to get the following details of a match -
 - Teams who participated 
 - Winner
