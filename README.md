@@ -16,7 +16,10 @@ Built using Flask & Postgres
 
 1. http://127.0.0.1:5000/get_all_matches
 
-This endpoint will return list of matches with details mentioned above
+This endpoint will return list of matches with details 
+- Teams who participated 
+- Winner
+- Team X won by A runs / wickets
 
 2. http://127.0.0.1:5000/addteam?id={team_id}&team_name={team_name}&coach_name={coach_name}&captain_name={captain_name}&matches_played={matches_played}
 
