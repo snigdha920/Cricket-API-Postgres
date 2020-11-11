@@ -1,4 +1,4 @@
-# Cricket API 
+# Cricket Scores
 
 Built using Flask & Postgres
 
